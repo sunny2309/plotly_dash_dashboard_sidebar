@@ -77,7 +77,7 @@ main_content = html.Div([
         ], className="row"),
     html.Div([
         dcc.Graph(id="bar_chart", className="col-5"),
-        dcc.Graph(id="heatmap", figure=create_pie_chart(), className="col-5"),
+        dcc.Graph(id="pie_chart", figure=create_pie_chart(), className="col-5"),
         ],className="row"),
     ], className="col", style={"height": "100vh", "background-color": "#e5ecf6"}
 )
